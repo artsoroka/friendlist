@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+require('dotenv').config({path: __dirname + '/../.env'}); 
+
+var http   = require('http'); 
+var app    = require('../app'); 
+var config = require('../config'); 
+var server = http.Server(app).listen(config.APP.port); 
+
+console.log('App started on port %d', config.APP.port); 

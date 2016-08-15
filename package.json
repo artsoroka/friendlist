@@ -1,0 +1,33 @@
+{
+  "name": "friendlist",
+  "version": "0.0.1",
+  "description": "vk.com friend list of a user ",
+  "main": "bin/www",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "mkdir -p db"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artsoroka/friendlist"
+  },
+  "keywords": [
+    "vk.com",
+    "friendlist"
+  ],
+  "author": "Artem Soroka <art.soroka@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artsoroka/friendlist/issues"
+  },
+  "homepage": "https://github.com/artsoroka/friendlist",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "nedb": "^1.8.0",
+    "request": "^2.74.0"
+  }
+}
